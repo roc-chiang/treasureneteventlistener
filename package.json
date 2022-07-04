@@ -1,0 +1,23 @@
+{
+  "name": "blockchainWatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@39.98.154.132:AOPROJS/nyl/blockchainWatcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.8",
+    "node-schedule": "^2.1.0",
+    "web3": "^1.7.1"
+  }
+}
