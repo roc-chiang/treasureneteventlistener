@@ -1,0 +1,7 @@
+version: '3'
+services:
+  treasureNet_blockchainwatcher:
+    image: treasurenet/eventlistener:1
+    network_mode: "host"
+    restart: unless-stopped
+    container_name: eventlistener
