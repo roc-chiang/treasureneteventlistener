@@ -8,13 +8,9 @@
 
 It is used to monitor the events of the TreasureNet network, store them in the database (MongoDB), and provide data sources for the relevant platforms.
 
+
 ![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-![](https://badgen.net/github/license/treasurenetprotocol/eventlistener)
-![](https://badgen.net/github/last-commit/treasurenetprotocol/eventlistener)
-![](https://badgen.net/github/tag/treasurenetprotocol/eventlistener)
-![](https://badgen.net/github/stars/treasurenetprotocol/eventlistener)
 
 
 ## Dependent project
@@ -30,7 +26,7 @@ It is used to monitor the events of the TreasureNet network, store them in the d
 ### Docker
 
 ```shell
-    docker build -t treasurenet/blockchainwatcher:1 .
+    docker build -t treasurenet/eventlistener:1 .
     docker-compose up -d
 ```
 
